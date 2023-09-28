@@ -5,7 +5,5 @@ const monacoEl = document.getElementById('monaco-editor');
 monaco.editor.create(monacoEl, {
 	value: `const foo = () => 0;`,
 	language: 'javascript',
-	theme: 'vs',
 	automaticLayout: true,
-	scrollBeyondLastLine: false,
 });
